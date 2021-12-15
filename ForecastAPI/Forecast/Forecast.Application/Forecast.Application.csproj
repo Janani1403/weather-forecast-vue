@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="10.3.4" />
+    <PackageReference Include="MediatR" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Forecast.Core\Forecast.Core.csproj" />
+    <ProjectReference Include="..\Forecast.Domain\Forecast.Domain.csproj" />
+    <ProjectReference Include="..\Forecast.Persistence\Forecast.Persistence.csproj" />
+    <ProjectReference Include="..\Forecast.Services\Forecast.Services.csproj" />
+  </ItemGroup>
+
+</Project>
